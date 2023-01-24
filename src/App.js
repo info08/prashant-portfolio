@@ -1,4 +1,4 @@
-
+import a ,{b,c} from './module'
 
 
 function App() {
@@ -34,6 +34,10 @@ function App() {
         </h1>
         <botton className="btn btn-success para" onClick={()=>alert('testing process working fine')}>Click Me</botton>
         <p>{name}</p>
+        <p>{a}</p>
+        <p>{b}</p>
+        <p>{c}</p>
+
       </div>
     </>
   );
